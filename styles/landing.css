@@ -153,6 +153,7 @@ nav h1 {
   border: 1px solid rgba(242, 237, 237, 1);
   border-radius: 14px;
   padding: 24px;
+  max-width: 350px;
 }
 
 .card h3 {
