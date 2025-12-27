@@ -152,3 +152,52 @@ nav h1 {
 .focus-image img {
   border-radius: 48px;
 }
+
+/* NEWSLETTER SECTION STYLES */
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.newsletter-heading {
+  max-width: 528px;
+}
+
+.newsletter-heading h2 {
+  font-size: 97px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+
+.newsletter-form {
+  width: 497px;
+}
+
+.newsletter-form-content label {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.newsletter-form-content input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.newsletter-form-content input,
+textarea {
+  padding: 20px 0px 20px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(214, 221, 237, 1);
+  margin-bottom: 20px;
+  display: block;
+  width: 96%;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
