@@ -32,6 +32,12 @@ main {
   font-weight: 700;
 }
 
+.btn-primary:hover {
+  color: rgba(78, 71, 255, 1);
+  background-color: white;
+  cursor: pointer;
+}
+
 /* HEADER & NAVBAR STYLES */
 header {
   background-image: url(../Assets/Hero-bg.png);
@@ -200,4 +206,40 @@ textarea {
   width: 96%;
   font-family: "Inter", sans-serif;
   font-size: 20px;
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: rgba(255, 255, 255, 1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 105px 455px;
+}
+
+.footer-content {
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content h2 {
+  font-size: 100px;
+  font-weight: 900;
+  color: rgba(78, 71, 255, 1);
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  color: rgba(137, 135, 161, 1);
+  margin-bottom: 20px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-flex p:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
